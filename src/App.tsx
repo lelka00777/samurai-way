@@ -6,7 +6,6 @@ import Profile from "./Components/Profile/Profile";
 import MyPosts from "./Components/Profile/MyPosts/MyPosts";
 
 
-
 function App() {
     return (<div className="app-wrapper">
 
