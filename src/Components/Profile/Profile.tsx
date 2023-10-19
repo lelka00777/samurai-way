@@ -7,8 +7,8 @@ const Profile = () => {
     return (<div >
 
 
-        <div>
-            <img alt={'2'} src='https://www.interior.ru/images/setka/2022_07_22/1915.jpg'/>
+        <div >
+            <img className={s.img} alt={'2'} src='https://www.interior.ru/images/setka/2022_07_22/1915.jpg'/>
         </div>
 
         <div>
