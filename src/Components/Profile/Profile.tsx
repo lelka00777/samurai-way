@@ -1,20 +1,14 @@
 import React from 'react';
 import s from './Profile.module.css';
 import MyPosts from "./MyPosts/MyPosts";
+import {ProfileInfo} from "./PrifileInfo/ProfileInfo";
 
 
 const Profile = () => {
-    return (<div >
+    return (<div>
 
-
-        <div >
-            <img className={s.img} alt={'2'} src='https://www.interior.ru/images/setka/2022_07_22/1915.jpg'/>
-        </div>
-
-        <div>
-            avatar+description
-        </div>
-        <MyPosts />
+        <ProfileInfo/>
+        <MyPosts/>
 
 
     </div>)
@@ -22,3 +16,7 @@ const Profile = () => {
 };
 
 export default Profile;
+
+
+
+
